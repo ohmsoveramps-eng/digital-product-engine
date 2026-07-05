@@ -1,0 +1,19 @@
+{
+  "product_title": "MPC Library Cleanup Audit — Know Exactly What's In Your Library",
+  "tagline": "If duplicate WAVs, copied sample folders, preview files, and protected MPC project areas are slowing down every session, this audit shows what is safe to review before anything is moved.",
+  "price": 79,
+  "product_type": "service",
+  "delivery_method": "Within 48 hours of purchase, you receive a PDF audit report listing every duplicate group, broken path, and cleanup recommendation for your MPC library. No files are moved or deleted without your written approval.",
+  "tags": [
+    "MPC",
+    "Akai MPC",
+    "MPC library",
+    "sample management",
+    "MPC File Organizer",
+    "duplicate samples",
+    "MPC cleanup"
+  ],
+  "upsell": "Add guided cleanup — $199. I run the approved cleanup steps for you and confirm every deletion before it happens.",
+  "description": "MPC drives get messy fast: duplicate WAVs across Projects and Expansions, copied sample packs that show up again and again in Browser search, preview files taking space, and project-data folders that are risky to touch without a plan. The MPC Library Cleanup Audit is a safety-first read-only review for Akai MPC users who want clarity before deleting anything.\n\nYou receive a PDF audit report that documents the drive or folder reviewed, duplicate groups, protected MPC areas, size and clutter notes, cleanup opportunities, and recommended next actions. The audit is designed around MPC standalone workflows, so Projects, Expansions, plugin presets, previews, and _[ProjectData] folders are treated conservatively instead of like ordinary files.\n\nThis is not an automatic cleanup tool and it does not relink projects. It gives you a clear report first. No files are moved, renamed, deleted, backed up, or restored without your written approval.",
+  "booking_instructions": "After purchase, email your MPC model, OS version, and library size to [placeholder-email]. Audit delivered within 48 hours as a PDF."
+}

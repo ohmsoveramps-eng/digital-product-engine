@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.local
+*.log
+__pycache__/
+node_modules/
+dist/
+raw/
+drafts/
+build/
+generated_products/
+exports/
+product_builds/
+private_assets/
+*.zip
