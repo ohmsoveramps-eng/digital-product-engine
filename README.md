@@ -1,4 +1,4 @@
-# AI Digital Product Engine
+    # AI Digital Product Engine
 
 Local-first operating files for turning verified MPC and technical assets into Gumroad-ready products.
 
@@ -49,6 +49,26 @@ Output:
 2. Create the audit service listing using `gumroad/mpc-audit-service.json`.
 3. Follow `gumroad/upload-checklist.md`.
 4. Keep `STOREFRONT.md` updated with final Gumroad URLs.
+
+## Gumroad Pages CLI
+
+`gumroad_pages.py` manages the JSON listing files in `gumroad/`. Gumroad's API
+cannot create products or upload files (dashboard only), so `create`/`preview`
+stay local and `push` only syncs metadata to a product you already created
+manually.
+
+```bash
+export GUMROAD_ACCESS_TOKEN=...   # app.gumroad.com/settings/advanced
+
+python3 gumroad_pages.py list                    # GET /v2/products
+python3 gumroad_pages.py create mpc-loop-packs    # scaffold gumroad/mpc-loop-packs.json
+python3 gumroad_pages.py preview mpc-codex-excerpt   # render local JSON, no network call
+python3 gumroad_pages.py push mpc-codex-excerpt      # PUT name/price/description/tags to product_id
+```
+
+`push` cannot touch the downloadable file or cover image, and `tags[]`
+support is unverified against the live API -- it prints the raw response so
+you can confirm what actually changed.
 
 ## Git Safety
 

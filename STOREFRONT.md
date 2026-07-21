@@ -6,8 +6,8 @@ This is the operating reference for Frank Jarczynski's local-first MPC product s
 
 | Product | Price | File or Service | Gumroad URL | Launch Status |
 | --- | ---: | --- | --- | --- |
-| The MPC Codex: First Track Fast | $19 intro / $29 normal | `dist/mpc-codex-first-track-fast-v1.pdf` | `[gumroad-url]` | Ready for manual upload |
-| MPC Library Cleanup Audit | $79 | Service, manual PDF audit report | `[gumroad-url]` | Ready for manual listing |
+| The MPC Codex: First Track Fast | $19 intro / $29 normal | `dist/mpc-codex-first-track-fast-v1.pdf` | https://ohmsoveramps.gumroad.com/l/ulrcb | Published, live |
+| MPC Library Cleanup Audit | $79 | Service, manual PDF audit report | https://ohmsoveramps.gumroad.com/l/daitbg | Draft, pending cover image + contact email before publish |
 | MPCLII Vault loop packs | TBD | ZIP loop packs | `[gumroad-url]` | On hold pending audio clearance |
 
 ## Revenue Target
